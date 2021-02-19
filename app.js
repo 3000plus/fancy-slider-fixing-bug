@@ -83,6 +83,7 @@ const createSlider = () => {
   if (duration < 0 || isNaN(duration)) {
     alert("Please enter positive number !");
     document.querySelector('.main').style.display = 'none';
+    document.getElementById('noShow').style.display = 'block';
     return;
   }
   else {
